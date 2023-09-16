@@ -1,7 +1,8 @@
-const Education = () => {
+
+const EducationPage = () => {
     return (
-        <><h2>Education</h2></>
+        <><h2 className="text-white">Education</h2></>
     );
 };
 
-export default Education;
+export default EducationPage;

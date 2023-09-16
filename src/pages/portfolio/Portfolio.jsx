@@ -1,7 +1,7 @@
-const Portfolio = () => {
+const PortfolioPage = () => {
     return (
-        <><h2>Portfolio</h2></>
+        <><h2 className="text-white">Portfolio</h2></>
     );
 };
 
-export default Portfolio;
+export default PortfolioPage;

@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Dashboard from "./pages/Dashboard"
-import Home from "./pages/home/Home"
-import Education from "./pages/education/education"
-import Experience from "./pages/experience/Experience"
-import NotFound from "./pages/error/NotFound"
-import Contact from "./pages/contact/Contact"
-import Portfolio from "./pages/portfolio/portfolio"
+import HomePage from "./pages/home/Home"
+import EducationPage from "./pages/education/education"
+import ExperiencePage from "./pages/experience/Experience"
+import PortfolioPage from "./pages/portfolio/portfolio"
+import ContactPage from "./pages/contact/Contact"
+import NotFoundPage from "./pages/error/NotFound"
 
 function App() {
   return (
@@ -13,12 +13,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />}>
             <Route>
-                <Route index element={<Home />} />
-                <Route path="education" element={<Education />} />
-                <Route path="experience" element={<Experience />} />
-                <Route path="portfolio" element={<Portfolio />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="*" element={<NotFound />} />
+                <Route index element={<HomePage />} />
+                <Route path="education" element={<EducationPage />} />
+                <Route path="experience" element={<ExperiencePage />} />
+                <Route path="portfolio" element={<PortfolioPage />} />
+                <Route path="contact" element={<ContactPage />} />
+                <Route path="*" element={<NotFoundPage />} />
             </Route>
         </Route>
       </Routes>

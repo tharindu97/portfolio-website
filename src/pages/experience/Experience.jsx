@@ -1,7 +1,7 @@
-const Experience = () => {
+const ExperiencePage = () => {
     return (
-        <><h2>Experience</h2></>
+        <><h2 className="text-white">Experience</h2></>
     );
 };
 
-export default Experience;
+export default ExperiencePage;
